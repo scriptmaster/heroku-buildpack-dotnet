@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f $1/app.csproj ]; then
+if [ -f $1/myApp.csproj ]; then
     echo ".NET Core"
     exit 0
 else
