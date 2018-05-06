@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-midir ~/.heroku
+mkdir ~/.heroku
 echo $1
 echo $2
 echo $3
