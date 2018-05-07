@@ -3,7 +3,7 @@
 mkdir -p /app/.heroku/
 pwd
 cd /app/
-ls
+ls -a
 echo $1
 echo $2
 echo $3
