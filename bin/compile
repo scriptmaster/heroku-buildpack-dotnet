@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 mkdir -p /app/.heroku/
+pwd
+cd /app/
+ls
 echo $1
 echo $2
 echo $3
