@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p "$BUILD_DIR/.heroku/"
+mkdir -p /app/.heroku/
 echo $1
 echo $2
 echo $3
