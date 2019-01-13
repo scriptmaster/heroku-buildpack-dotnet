@@ -11,7 +11,10 @@ echo $BUILD_DIR
 #touch "$BUILD_DIR/HELLOWORLD"
 #touch "HELLO"
 ls -la
+python --version
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
-dpkg -i packages-microsoft-prod.deb
-apt-get update
-apt-get install dotnet-runtime-2.2
+ls -la
+#dpkg -i packages-microsoft-prod.deb
+#ls -la
+#apt-get update
+#apt-get install dotnet-runtime-2.2
