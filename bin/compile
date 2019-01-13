@@ -9,4 +9,6 @@ cd $BUILD_DIR
 echo $BUILD_DIR
 
 touch "$BUILD_DIR/HELLOWORLD"
-touch "$BUILD_DIR/HELLO"
+touch "HELLO"
+dotnet --list-sdks
+ls -la
